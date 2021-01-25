@@ -25,9 +25,9 @@ sections:
   path: content/data/config.json
   label: Site Info
 upload_dir: static
-public_path: ''
+public_path: "/static/media"
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_output_directory: ".nuxt"
